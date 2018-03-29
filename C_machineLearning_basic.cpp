@@ -4,6 +4,9 @@
 #define NUM 100
 #define WIDTH 1000
 #define HEIGHT 1000
+#define ABS(x) ((x < 0) ? -x : x)
+#define MIN(a, b) ((a < b) ? a : b)
+#define MAX(a, b) ((a > b) ? a : b)
 
 using namespace std;
 using namespace cv;
